@@ -219,3 +219,76 @@ include::{snippets}/visita/delete-visita/path-parameters.adoc[]
 
 ==== Ejemplo usando CURL
 include::{snippets}/visita/delete-visita/curl-request.adoc[]
+
+
+[[productos]]
+== Productos
+
+=== Get producto por Id
+Obtiene un producto específico usando su identificador único.
+
+==== Ejemplo de petición
+include::{snippets}/producto/get-producto/http-request.adoc[]
+
+==== Ejemplo de respuesta
+include::{snippets}/producto/get-producto/http-response.adoc[]
+
+==== Ejemplo usando CURL
+include::{snippets}/producto/get-producto/curl-request.adoc[]
+
+==== Parámetros de la petición
+include::{snippets}/producto/get-producto/path-parameters.adoc[]
+
+=== Get producto
+Obtiene todos los productos.
+
+==== Ejemplo de petición
+include::{snippets}/producto/get-productos/http-request.adoc[]
+
+==== Ejemplo de respuesta
+include::{snippets}/producto/get-productos/http-response.adoc[]
+
+==== Ejemplo usando CURL
+include::{snippets}/producto/get-productos/curl-request.adoc[]
+
+=== POST nueva producto
+Crea una nueva producto
+
+==== Ejemplo de petición
+include::{snippets}/producto/post-producto/http-request.adoc[]
+
+==== Ejemplo de respuesta
+include::{snippets}/producto/post-producto/http-response.adoc[]
+
+==== Ejemplo usando CURL
+include::{snippets}/producto/post-producto/curl-request.adoc[]
+
+=== PUT  producto
+Actualiza un producto existente.
+
+==== Ejemplo de petición
+include::{snippets}/producto/put-producto/http-request.adoc[]
+
+==== Parámetros de la petición
+include::{snippets}/producto/put-producto/path-parameters.adoc[]
+
+==== Ejemplo de respuesta
+include::{snippets}/producto/put-producto/http-response.adoc[]
+
+==== Ejemplo usando CURL
+include::{snippets}/producto/put-producto/curl-request.adoc[]
+
+=== DELETE producto por Id
+Elimina una producto específico usando su identificador único.
+
+==== Ejemplo de petición
+include::{snippets}/producto/delete-producto/http-request.adoc[]
+
+==== Ejemplo de respuesta
+include::{snippets}/producto/delete-producto/http-response.adoc[]
+
+==== Parámetros de la petición
+include::{snippets}/producto/delete-producto/path-parameters.adoc[]
+
+==== Ejemplo usando CURL
+include::{snippets}/producto/delete-producto/curl-request.adoc[]
